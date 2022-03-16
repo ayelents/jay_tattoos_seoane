@@ -1,6 +1,6 @@
-# Proyecto de prueba
+# Mi primer Proyecto
 
-## Es el codigo fuente de brahinworx
+## Es el codigo fuente
 
-### Ver el [DEMO](https://github.com/ayelents/jay_tattoos_seoane) del sitio
+### Ver el 🚀 [DEMO](https://github.com/ayelents/jay_tattoos_seoane) del sitio
 
