@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: auto 2fr;
     grid-template-rows: auto 2fr;
-    width: 100%;
+    max-width: 40%;
     border: 2px solid #fff
 }
 
@@ -19,7 +19,7 @@
 }
 
 .main_pedi-tu-turno {
-    max-width: 780px;
+    max-width: 100%;
     color:rgb(255, 255, 255); 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     text-align: left;
