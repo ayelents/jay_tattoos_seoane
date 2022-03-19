@@ -5,7 +5,7 @@
 }
 
 /* ==== PESTANA - PEDI TU TURNO ==== */ 
-.section__grid {
+.main__section-pedi-tu-turno {
     display: grid;
     grid-template-columns: auto 2fr;
     grid-template-rows: auto 2fr;
@@ -18,7 +18,7 @@
     justify-content: center;
 }
 
-.main_pedi-tu-turno {
+.main__pedi-tu-turno {
     max-width: 100%;
     color:rgb(255, 255, 255); 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
@@ -116,7 +116,7 @@ main {
 }
 
 /* ===== index - galeria de imagenes ===== */
-section {
+#section__index-galeria {
     text-align: center;
 }
 

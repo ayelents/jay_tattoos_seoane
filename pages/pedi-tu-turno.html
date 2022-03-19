@@ -35,13 +35,13 @@
                 </div>
             </nav>
         </haeder>
-        <main class="main_pedi-tu-turno">
+        <main class="main__pedi-tu-turno">
             <div class="fondo_animacion"></div>
             <h2>PEDI TU TURNO</h2>
             <p class="lead">
                 Dejanos tus datos y tu consulta
             </p>
-            <section class="section__grid">
+            <section class="main__section-pedi-tu-turno">
                 <form action="" method="" enctype="">
                     <div>
                         <p class="lead">
@@ -51,10 +51,18 @@
                         <input type="radio" name="encuesta" id="Propio">
                         <label for="">Tu diseno</label>
                         <input type="radio" name="encuesta" id="Tu diseno">
-                        <p class="lead">Nombre:
-                        <input type="text" name="Nombre" id="Nombre" placeholder="Nombre"></p>
-                        <p class="lead">Apellido:
-                        <input type="text" name="Apellido" id="Apellido" placeholder="Apellido"></p>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="Nombre" placeholder="Nombre">
+                          </div>
+                        <div class="mb-3">
+                            <label for="Apellido" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="Apellido" placeholder="Apellido">
+                          </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Correo electronico</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
                     </div>
                     <div class="Tamaño__tatuaje">
                         <p class="lead">
