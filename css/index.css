@@ -6,11 +6,7 @@
 
 /* ==== PESTANA - PEDI TU TURNO ==== */ 
 .main__section-pedi-tu-turno {
-    display: grid;
-    grid-template-columns: auto 2fr;
-    grid-template-rows: auto 2fr;
-    max-width: 40%;
-    border: 2px solid #fff
+    max-width: 80%;
 }
 
 .links {
@@ -19,10 +15,18 @@
 }
 
 .main__pedi-tu-turno {
-    max-width: 100%;
     color:rgb(255, 255, 255); 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     text-align: left;
+    max-width: 70%;
+    margin-left: 5%;
+}
+
+#form__pedi-tu-turno {
+    justify-content: center;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-style: solid;
 }
 
 .tamaño__tatuaje {
@@ -54,10 +58,12 @@
 .titulo {
     text-align: center;
     color:rgb(252, 247, 247);
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "IM Fell Double Pica";
+    font-weight: bolder;
     font-size: 10vh;
     color-adjust: rgb(187, 170, 170);
 }
+
 
 /* == BOTONES - NAV == */
 ul li{ 
@@ -95,38 +101,15 @@ main {
     text-align: center;
 }
 
-.main2 {
-    max-width: 680px;
-    color:rgb(255, 255, 255); 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    text-align: justify;
-    flex-wrap: wrap;
-    display: inline-flex;
-    justify-content: center;
-}
-
-.main3 {
-    max-width: 680px;
-    color:rgb(255, 255, 255); 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    text-align: justify;
-    flex-wrap: wrap;
-    display: inline-flex;
-    justify-content: center;
-}
-
 /* ===== index - galeria de imagenes ===== */
 #section__index-galeria {
-    text-align: center;
+    justify-content: center;
+    
 }
 
-.logo-contenedor {
-    overflow-x: auto;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
- }
+.container {
+    max-width: 60%;
+}
 
  /* ===== FOOTER ===== */
 .footer {
