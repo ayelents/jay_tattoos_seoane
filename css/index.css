@@ -4,36 +4,7 @@
     box-sizing: border-box;
 }
 
-/* ==== PESTANA - PEDI TU TURNO ==== */ 
-.main__section-pedi-tu-turno {
-    max-width: 80%;
-}
-
-.links {
-    display: flex;
-    justify-content: center;
-}
-
-.main__pedi-tu-turno {
-    color:rgb(255, 255, 255); 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    text-align: left;
-    max-width: 70%;
-    margin-left: 5%;
-}
-
-#form__pedi-tu-turno {
-    justify-content: center;
-    border-color: rgb(255, 255, 255);
-    border-width: 2px;
-    border-style: solid;
-}
-
-.tamaño__tatuaje {
-    display: inline-flex;
-    flex-direction: row;
-}
-
+/* ==== PESTAÑA PRINCIPAL - INICIO ==== */
 /* ==== BODY ==== */
 .body {
     background-color: #131212;
@@ -53,6 +24,7 @@
     background-image: url(../images/20211229_202751_HDR_1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    margin: -25px;
 }
 
 .titulo {
@@ -61,7 +33,6 @@
     font-family: "IM Fell Double Pica";
     font-weight: bolder;
     font-size: 10vh;
-    color-adjust: rgb(187, 170, 170);
 }
 
 
@@ -126,7 +97,7 @@ main {
     }
 
 
-/* ==== PESTANHAS ==== */
+/* ==== PESTAÑAS ==== */
 #fondo_header ul {
     text-align: center;
 }
@@ -134,6 +105,50 @@ main {
 .menu a {
     color:rgb(0, 0, 0);
 }
+
+
+/* ==== PESTAÑA 1 - PEDI TU TURNO ==== */ 
+.main__section-pedi-tu-turno {
+    max-width: 80%;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.main__pedi-tu-turno {
+    color:rgb(255, 255, 255); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    text-align: left;
+    max-width: 70%;
+    margin-left: 5%;
+}
+
+#form__pedi-tu-turno {
+    justify-content: center;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-style: solid;
+}
+
+.tamaño__tatuaje {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+/* == PESTAÑA 2 - TIPS == */
+
+
+
+/* == PESTAÑA 3 - DUDAS == */
+.main__dudas {
+    color:rgb(255, 255, 255); 
+
+/* == PESTAÑA 4 - CUIDADOS == */
+
+
+
 
 /* ==== RESPONSIVE ==== */
 @media screen and (min-width: 1060px) {
@@ -183,6 +198,6 @@ main {
     }
         
     .logo-contenedor {
-         flex-wrap: wrap;
+        flex-wrap: wrap;
     }
-}
+}}
