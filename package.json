@@ -1,0 +1,25 @@
+{
+  "name": "jay-tattoos_seoane",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass": "node-sass --include-path scss sass/index.scss css/main.css"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayelents/jay_tattoos_seoane.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayelents/jay_tattoos_seoane/issues"
+  },
+  "homepage": "https://github.com/ayelents/jay_tattoos_seoane#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

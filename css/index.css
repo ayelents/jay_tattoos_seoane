@@ -40,6 +40,7 @@
     animation-duration: 4s;
     animation-name: slidein;
     background-color: rgba(223, 219, 219, 0.432);
+    margin-top: 10px;
 }
 
 @keyframes slidein {
