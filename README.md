@@ -2,5 +2,5 @@
 
 ## Es el codigo fuente
 
-### Ver el 🚀 [DEMO](https://github.com/ayelents/jay_tattoos_seoane) del sitio
+### Ver el 🚀 [DEMO](https://ayelents.github.io/jay_tattoos_seoane/) del sitio
 
