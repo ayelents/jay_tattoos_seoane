@@ -1,0 +1,19 @@
+ /* ===== FOOTER ===== */
+ .footer {
+    
+
+    footer p {
+        text-align: center;
+        font-size: 1.2em;
+        color: $tertiary;
+        justify-content: center;
+    }
+}
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 350px) {
+    .footer {
+        font-size: x-small;
+    }
+}

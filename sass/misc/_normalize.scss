@@ -1,0 +1,40 @@
+* {
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+
+.body {
+    background-color: $secondary;
+    padding: 8px;
+    grid-template-rows: auto 1fr auto;
+    min-height: 150vh;
+    align-items: center;
+}
+
+/* MAIN */
+main {
+    font-size: 20%;
+    color: $primary;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    justify-content: center;
+
+    h2 {
+        padding: 15px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    p {
+    justify-content: center;
+    text-align: justify;
+    } 
+}
+
+
+.fondo_animacion {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 3fr 1fr;
+}

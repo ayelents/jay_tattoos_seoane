@@ -1,6 +1,14 @@
-* {
-  margin: 2px;
-  padding: 2px; }
-
-div p {
-  color: aquamarine; }
+/* VARIABLES */
+@import url(./misc/_variables.scss);
+/* GLOBALES */
+@import url(./misc/_normalize.scss);
+@import url(./misc/_mixins.scss);
+/* PARTIALS */
+@import url(./partials/_footer.scss);
+@import url(./partials/_header.scss);
+/* VIEWS */
+@import url(./views/_cuidados.scss);
+@import url(./views/_dudas.scss);
+@import url(./views/_home.scss);
+@import url(./views/_pediturno.scss);
+@import url(./views/_tips.scss);

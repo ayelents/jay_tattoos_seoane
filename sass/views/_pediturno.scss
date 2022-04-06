@@ -1,0 +1,42 @@
+/* ==== PESTAÑA 1 - PEDI TU TURNO ==== */ 
+.main__section-pedi-tu-turno {
+    max-width: 80%;
+}
+
+.main__pedi-tu-turno {
+    color:$primary; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    text-align: left;
+    max-width: 70%;
+    margin-left: 5%;
+}
+
+#form__pedi-tu-turno {
+    justify-content: center;
+    border-color: $primary;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.pedi-tu-turno__tamaño-tatuaje {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+/* 
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+*/
+
+
+
+/* RESPONSIVE */
+@media screen and (max-width:780px) { 
+    #pedi__textarea {
+        max-width: 65%;
+    }
+}
