@@ -1,12 +1,12 @@
  /* ===== FOOTER ===== */
  .footer {
-    
+    height: 5vh;
+    justify-content: center;
 
     footer p {
         text-align: center;
         font-size: 1.2em;
-        color: $tertiary;
-        justify-content: center;
+        color: $primary
     }
 }
 
@@ -14,6 +14,6 @@
 /* RESPONSIVE */
 @media screen and (max-width: 350px) {
     .footer {
-        font-size: x-small;
+        font-size: 7px;
     }
 }
